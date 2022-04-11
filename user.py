@@ -1,5 +1,5 @@
 # import the function that will return an instance of a connection
-from mysqlconnection import connectToMySQL
+from flask_app.config.mysqlconnection import connectToMySQL
 
 def function(arg):
     from xml.dom.xmlbuilder import _DOMInputSourceCharacterStreamType
